@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+}
+
+.link {
+  color: #61dafb;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.link.active {
+  font-weight: bold;
+  color: #21a0f6;
+}

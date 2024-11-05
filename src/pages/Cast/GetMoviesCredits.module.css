@@ -1,0 +1,36 @@
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #333;
+}
+.actorImage {
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.castList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.castItem {
+  font-size: 1em;
+  margin: 10px 0;
+  padding: 10px;
+  border-bottom: 1px solid #eaeaea;
+  color: #555;
+}
+
+.castItem:last-child {
+  border-bottom: none;
+}

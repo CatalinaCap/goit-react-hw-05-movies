@@ -1,0 +1,41 @@
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.movieList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movieItem {
+  font-size: 1.2em;
+  margin: 15px 0;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.movieItem:hover {
+  background-color: #f0f0f0;
+}
+
+.movieItem a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s;
+}
+
+.movieItem a:hover {
+  color: #0056b3;
+}
