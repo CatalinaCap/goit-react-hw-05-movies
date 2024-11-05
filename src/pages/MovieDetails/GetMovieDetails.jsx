@@ -22,6 +22,7 @@ const GetMovieDetails = () => {
   }, [movieId]);
 
   if (!movie) return <p>Loading movie details...</p>;
+
   const { title, overview, poster_path } = movie;
   const imageUrl = `https://image.tmdb.org/t/p/w500${poster_path}`;
   return (
